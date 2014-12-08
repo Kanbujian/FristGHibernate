@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>helloSeverlet</servlet-name>
+    <servlet-class>com.test.webapp.helloSeverlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>meiyou</servlet-name>
+    <servlet-class>com.test.webapp.meiyou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>testHibernate</servlet-name>
+    <servlet-class>testHibernate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryHibernate</servlet-name>
+    <servlet-class>QueryHibernate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteHibernate</servlet-name>
+    <servlet-class>deleteHibernate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>alterHibernate</servlet-name>
+    <servlet-class>alterHibernate</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>helloSeverlet</servlet-name>
+    <url-pattern>/servlet/helloSeverlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>meiyou</servlet-name>
+    <url-pattern>/servlet/meiyou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>testHibernate</servlet-name>
+    <url-pattern>/servlet/testHibernate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryHibernate</servlet-name>
+    <url-pattern>/servlet/QueryHibernate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteHibernate</servlet-name>
+    <url-pattern>/servlet/deleteHibernate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>alterHibernate</servlet-name>
+    <url-pattern>/servlet/alterHibernate</url-pattern>
+  </servlet-mapping>
+
+</web-app>
